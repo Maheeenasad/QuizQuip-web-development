@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizQuip</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+
+      <header class="header">
+        <div class="logo-and-image">
+
+            <h1>QuizQuip</h1>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="" aria-current="page" href="index.html"><i></i>
+                    Home</a></li>
+                <li><a class="" href="dashboard.html"><i ></i>Dashboard</a></li>
+                <li ><a class=" active" href="login.html"><i ></i>Login/Register</a></li>
+              
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container1">
+    <div class="box1">
+        <h4>Attempt Quiz</h4>
+        <br>
+        <br>
+        <h4>Create Quiz</h4>
+        <hr>
+        <br><br>
+        <h4>About</h4>
+        <br>
+        <br>
+        <h4>Contact Us</h4>
+        <br><br>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </div>
+
+    <div class="box2">
+        <!-- login/register starts -->
+
+ <form action="action_page.php" method="post">
+    
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+    </div>
+    </div>
+
+   
+
+
+
+</body>
+</html>

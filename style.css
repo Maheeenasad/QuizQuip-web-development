@@ -1,0 +1,210 @@
+
+   
+    header{
+      
+        padding: .7rem 7%;
+        height: 75px;
+        left: 0; right: 0; top: 0;
+        z-index: 1000;
+        background-color: white;
+        display: block;
+      
+    }
+    .logo-and-image{
+        float: left;
+        display: flex;  
+    }
+    .navbar{
+        float: right;
+        margin-top: 14px;
+        
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none; 
+    }
+    nav ul li a{
+         margin: 0.1rem 0.3rem;
+         padding: 0.3rem 1rem;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+    a:active{
+        color: yellow;
+    }
+
+   
+    .header .navbar a:hover{
+        border-bottom: .1rem solid rgb(180, 176, 176);
+        color:rgb(255, 255, 255);
+        padding: 1rem;
+         background-color: #a447dd; 
+  
+        padding: 5px 15px;
+        border-radius: 12px;
+       
+        
+    } 
+    .container1{
+        display: inline-flex;
+        column-gap: 50px;
+        /* border: 2px solid black; */
+        /* box-shadow: 10px 5px 5px red; */
+
+
+    }
+    .container1 .box1 hr{
+        margin-top: 90px;
+        height: 3px;
+
+    }
+   
+    .box1{
+        /* background-color: aqua; */
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 40px;
+        /* border: 2px solid #000; */
+        margin-left: 10px;
+        box-shadow: 10px 0px 20px 8px rgb(175, 174, 174);
+        
+    }
+    .box2{
+        border-radius: 10px;
+        width: 1250px;
+        height: 600px;
+        box-shadow: 0px 10px 20px 20px rgb(175, 174, 174);
+    }
+    .container1 .box2 p{
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: 'Fascinate', cursive;
+
+    }
+    .container1 .box2 img{
+        width: 250px;
+    }
+    .container1 .box2 .bottom-image{
+       width: 250px;
+       float: right;
+       margin-right: 50px;
+     margin-top: -20px;
+    }
+    .container1 .box2 .top-image{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    /* login starts */
+    /* Bordered form */
+form {
+    border: 3px solid #fcfafa;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 5px gray;
+    width: 600px;
+    margin-top: 100px;
+margin-left: 330px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #a752e0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+ 
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  /* Style all font awesome icons */
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.container1 .box2 .bottom-dash-image{
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+    
+}
+.container1 .box2 .top-dash-image{
+    float: right;
+    width: 350px;
+    margin-top: 10px;
+}
+.container1 .box2 h4{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+  
+ 
+  
